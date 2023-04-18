@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+	margin: 2px;
+}
+
+h1{
+	font-size: 80px;
+}
+
+header{
+	background-color: lightgray;
+}
+.cabecera{
+	align-content: center;
+}
+
+.introduccion{
+	display: flex;
+	align-content: center;
+	background-image: url("https://picsum.photos/780/520");
+}
