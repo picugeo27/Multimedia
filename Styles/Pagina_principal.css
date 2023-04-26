@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+	margin: 2px;
+	font-family: lato;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h3{
+	font-size: 30px;
+
+}
+
+header{
+	background-color: lightgray;
+	flex-direction: row;
+}
+
+nav{
+	background-color: pink;
+	font-size: 20px; 
+}
+
+.cabecera{
+	align-content: center;
+}
+
+.cabeceras_secciones{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+
+.introduccion{
+	display: flex;
+	align-content: center;
+	background-image: url("https://picsum.photos/780/520");
+}
+
+.comentarios{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.comentariosBloque{
+	width:500px;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	padding: 20px;
+	margin: 15px;
+
+}
+
+details { 
+  background-color: #f6f8fa;
+  width: 100%;
+  margin-bottom: 1rem;   
+  border-radius: 8px;  
+  border: 1px solid #d8e0e9;
+  color: #364f6b;
+  position: relative;  
+}
+details summary {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+details p {
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  background: #f6f8fa;
+  border-left: 2px solid #364f6b;
+}
