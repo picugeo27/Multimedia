@@ -1,3 +1,4 @@
+
 *{
 	box-sizing: border-box;
 	margin: 2px;
@@ -109,4 +110,27 @@ nav{
 	padding: 20px;
 	margin: 15px;
 
+}
+
+details { 
+  background-color: #f6f8fa;
+  width: 100%;
+  margin-bottom: 1rem;   
+  border-radius: 8px;  
+  border: 1px solid #d8e0e9;
+  color: #364f6b;
+  position: relative;  
+}
+details summary {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+details p {
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  background: #f6f8fa;
+  border-left: 2px solid #364f6b;
 }
