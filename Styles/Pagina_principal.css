@@ -80,8 +80,8 @@ nav{
 	align-content: center;
 }
 
-.cabeceras_secciones{
-	display: flex;
+.cabeceraComentarios{
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -108,5 +108,31 @@ nav{
 	background-color: white;
 	padding: 20px;
 	margin: 15px;
+}
 
+.preguntas_FrecuentesContenido{
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.preguntasBloque{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.pregunta{
+	align-content: center;
+	justify-content: center;
+}
+
+.sobre_nosotrosContenido{
+	display: inline-flex;
+	justify-content: center;
+	margin-inline: 200px;
+	margin-bottom: 100px;
 }
