@@ -1,4 +1,3 @@
-
 *{
 	box-sizing: border-box;
 	margin: 2px;
@@ -81,8 +80,8 @@ nav{
 	align-content: center;
 }
 
-.cabeceras_secciones{
-	display: flex;
+.cabeceraComentarios{
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -109,28 +108,31 @@ nav{
 	background-color: white;
 	padding: 20px;
 	margin: 15px;
-
 }
 
-details { 
-  background-color: #f6f8fa;
-  width: 100%;
-  margin-bottom: 1rem;   
-  border-radius: 8px;  
-  border: 1px solid #d8e0e9;
-  color: #364f6b;
-  position: relative;  
+.preguntas_FrecuentesContenido{
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-details summary {  
-  font-weight: 400;
-  font-size: 1.25rem;
-  padding: 1rem;
-  cursor: pointer;
-  list-style: none;
+
+.preguntasBloque{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:100%;
 }
-details p {
-  padding: 1rem;
-  margin: 0 1rem 1rem 1rem;
-  background: #f6f8fa;
-  border-left: 2px solid #364f6b;
+
+.pregunta{
+	align-content: center;
+	justify-content: center;
+}
+
+.sobre_nosotrosContenido{
+	display: inline-flex;
+	justify-content: center;
+	margin-inline: 200px;
+	margin-bottom: 100px;
 }
