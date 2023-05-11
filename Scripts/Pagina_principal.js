@@ -14,5 +14,5 @@ if (dinero == 0){
 	document.cookie = "dinero=1"
 	dinero = document.cookie;
 	}
-
-recaudacion.textContent=reaudacion_base+parseInt(dinero);
+console.log(recaudacion.textContent);
+recaudacion.textContent = (reaudacion_base+parseInt(dinero));
