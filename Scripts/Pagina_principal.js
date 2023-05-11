@@ -9,12 +9,10 @@ var dinero = document.cookie;
 console.log(document.cookie);
 
 if (dinero != 0){
-	if (dinero >=0){
 
-	} else {
 	alert(advertencia);
 	document.cookie = "dinero=0"
 	}
 
-}
+
 console.log(dinero)
