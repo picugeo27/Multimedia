@@ -16,6 +16,8 @@ if (dinero == 0){
 	}
 if (dinero>1){
 	patrocinadores.textContent = (patrocinadores_base + 1);
+}	else{
+	patrocinadores.textContent = (patrocinadores_base);
 }
 console.log(recaudacion.textContent);
-recaudacion.textContent = (reaudacion_base+parseInt(dinero));
+recaudacion.textContent = (reaudacion_base+dinero);
