@@ -8,7 +8,6 @@ var recaudacion = document.getElementById("recaudaciones");
 var dinero = document.cookie;
 console.log(document.cookie);
 
-if (dinero === null || dinero === undefined){
 	alert(advertencia);
 	document.cookie = "dinero=0"
-}
+
