@@ -19,5 +19,6 @@ if (dinero>1){
 }	else{
 	patrocinadores.textContent = (patrocinadores_base);
 }
+
 console.log(recaudacion.textContent);
-recaudacion.textContent = (reaudacion_base+dinero);
+recaudacion.textContent = (reaudacion_base+parseInt(dinero.split('=')[1]));
