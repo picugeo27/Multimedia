@@ -11,27 +11,27 @@
 <body>
 	
 <header>
-	<div class="cabecera">
-		<p class="nombre">
-
-		<img src="https://picsum.photos/50/30" title="Logo" alt="Imagen de un cerebro atravesado por un rayo" align="center">
-		Beaking Bread
-		</p>
-
-		<nav id="Menu" align="right">
-				<a href="algo1">Campaña</a>
+		<div class="equipo" id="principio">
+			<img src="Imagenes/logo.png" title="Logo" alt="Imagen de un cerebro atravesado por una espada">
+			<h3 class="equipo">Bad Brains</h3>
+			<div class="equipo">
+			<nav>
+				<a href="#campana">Campaña</a>
 				<a href="algo2">Patrocinar</a>
-				<a href="algo3">Comentarios</a>
-				<a href="algo">Preguntas Frecuentes</a>	
-		</nav>
-	</div>
+				<a href="#comentarios">Comentarios</a>
+				<a href="#preguntas_frecuentes">Preguntas Frecuentes</a>	
+		
+			</nav>
 
+		</div>
+		
+		
 
 </header>
 
 <section class="introduccion">
 	<div>
-	<h1>Breaking Bad</h1>
+		<h1>Breaking Bad</h1>
 	<p id="Lema">Existo, luego pienso</p>
 	</div>
 </section>
@@ -40,152 +40,138 @@
 
 <! -- Menus "desplegables" -->
 
-<section class="campana">
-	<div class="cabeceraComentarios">
-		<h3 class="cabeceras_secciones">
-			Campaña
-		</h3>
+<section id="campana">
+
+	<div class="cabecera_seccion">
+		<h3>Campaña</h3>
 	</div>
-	<div class="recaudacionContenido">
-		<div class="trailer">
+
+	<div class="recaudacion_contenido">
+
 			<video controls>
-				<source src="Videos/wurmple navidad.mp4" type="video/mp4"/>
+				<source src="Videos/Trailer Breaking bad 4.0.mp4" type="video/mp4"/>
 			</video>
-		</div>
-		<div class="recaudacionDatos">
+
+		<div class="recaudacion_datos">
+
 			<div>
-				<span class="recaudacionFila">Recaudación</span>
-				<span class="recaudacionFila relative"> -------</span>
+				<span class="recaudacion_fila">Recaudación</span>
+				<span id ="recaudacion" class="recaudacion_fila relative"> -------</span>
 			</div>
 			<div>
-				<span class="recaudacionFila">Meta</span>
-				<span class="recaudacionFila relative"> -------</span>
+				<span class="recaudacion_fila">Meta</span>
+				<span class="recaudacion_fila relative"> 35.000 €</span>
 			</div>
 			<div>
-				<span class="recaudacionFila">Patrocinadores</span>
-				<span class="recaudacionFila relative">-------</span>
+				<span class="recaudacion_fila">Patrocinadores</span>
+				<span id="patrocinadores" class="recaudacion_fila relative">-------</span>
 			</div>
 			<div>
-				<span class="recaudacionFila">Días Restantes</span>
-				<span class="recaudacionFila relative">-------</span>
+				<span class="recaudacion_fila">Días Restantes</span>
+				<span id="dias restantes" class="recaudacion_fila relative">-------</span>
 			</div>
 			<div>
-				<nav id="" align="center">
-					<a href="algo2">Patrocinar</a>
+					<a class="recaudacion_fila" href="" >Patrocinar</a>
 				</nav>
+
 			</div>
 			<div>
-				<p class="disclaimer">Disclaimer</p>
+				<p id="disclaimer">ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio
+				y no representa un producto real. Práctica de Multimedia, 1º GDDV - Curso 22/23
+				(Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="campanaBloque">
+
+<! -- menu que te sigue -->
+
+
+	<div class="campana_bloque">
 		<div>
-			<nav  class="campanaAtajos">
+			<nav  class="campana_atajos">
 				<div>
-					<a href="">.........</a>
+					<a href="#principio">Subir</a>
 				</div>
 				<div>
-					<a href="">.........</a>
+					<a href="#historia">Historia</a>
 				</div>
 				<div>
-					<a href="">.........</a>
+					<a href="#disenos">Diseños</a>
+				</div>
+				<div>
+					<a href="#descargas">Descargas</a>
 				</div>
 			</nav>
 		</div>
 
-		<div class="campanaContenido">
+	<! -- Texto y caratula -->
+
+		<div class="campana_contenido">
 			<div class="campanaHistoria">
 
-				<div id="Historia" class="historiaTitulo">
-					<h2>Historia</h2>
+				<div>
+					<h2 id="historia">Historia</h2>
 				</div>
+
 				<div class="historiaCuerpo">
-					<div class="historiaImagen">
-						<figure>
-							<img src="Imagenes/это пиздец.jpg">
-						</figure>
-					</div>
+					<img src="Imagenes/это пиздец.jpg">
 				</div>
+
 				<p>
-					<span>Hola Hola Hola Hola Hola Hola Hola Hola Hola HOla</span>
+					Breaking Bad - El videojuego, es un videojuego basada en la famosa serie de televisión donde los jugadores podrán entrar en el mundo de Walter White, recorrer sus escenarios y resolver puzzles. 
+					Se trata de una aventura gráfica donde el jugador entrará en la piel de diferentes personajes para conseguir avanzar en la historia.<br>
+
+					En la demo actual, el videojuego cuenta con diferentes elementos para aumentar su atráctivo. Entre los cuales podríamos destacar la optimización, ya que es importante que no haya tirones o problemas que puedan romper la inmersión. <br>
+
+					La estética también sería un punto a destacar, ya que immita el estilo "retro" de novelas gráficas más antiguas, pero sin llegar al nivel de las máquinas recreativas para poder llegar a un público más joven que está más acostumbrado a los gráficos realistas y detallados. A su vez el entorno está suficientmente detallado como para permitirle al jugador moverse por él e interactuar para que lo sienta como un universo más real<br>
+
+					En cuanto al gameplay y controles utilizamos mecánicas conocidas de movimiento e inventario para aumentar la comodidad del jugador y que pueda sentirse en un entorno familiar. El juego se compone principalmente de rompecabezas, donde la destreza mental y la lógica son elementos fundamentarles para avanzar en la trama. A pesar de esto, para aumentar la influencia del jugador, hemos decidido incluir la toma de decisiones como otro aspecto importante. Hay ciertos elementos que pueden cambiar el curso de los acontecimientos, como respuestas o acciones, pero dejaremos que esto lo descubra el jugador.
 				</p>
+				<h2 id="sinopsis">Sinopsis del trama</h2>
+					<p>
+						Todo empieza cuando Walter White, profesor de química de instituto, que utiliza sus conocimientos para producir sustancias estupefacientes. Mientras está en su caravana "cocinando" es sorprendido por dos traficantes que están interesados en su mercancía, pero no para asociarse. Bajo la presión de los desconocidos que tienen a su socio, Jesse, tomado como rehen. En esta situación tiene que hacer algo para escapar y además salvar a su socio, ¿pero que podría hacer? <br>
 
+						Dada la situación Walter tuvo que hacer algo malo, muy malo. ¿Cómo podrá arreglarlo para seguir con vida? desde luego llamar a la policía no es una opción. ¿Hasta donde estarán dispuestos a llegar para encubrir lo ocurrido? ¿Podrán superarlo y seguir con sus vidas, o no soportarán la presión y desistirán? Eso depende de tí.
+					</p>
+				<h2 id="disenos">Diseños</h2>
+					<h3>Walter White</h3>
+						<img src="Imagenes/Walter.png" title="Logo" alt="Imagen de un cerebro atravesado por una espada">
+					<h3>Escenarios</h3>
+						<img src="Imagenes/Porche.png" title="Logo" alt="Imagen de un cerebro atravesado por una espada">
+						<img src="Imagenes/Furgoneta.png" title="Logo" alt="Imagen de un cerebro atravesado por una espada">
+
+				<h3 id="descargas">Descargas</h3>
+				<p class="advertencia">Nota: Realmente se descarga una demo del juego realizada por los alumnos, no es de broma</p>
+				<a id="enlace_descarga" href="Descargas/BreakingBad.zip" download="Breaking Bad">Descargar la demo</a>
 			</div>
 		</div>
 	</div>
+
 </section>
 
-<section class="comentarios">
-	<div class="cabeceraComentarios">
-		<h3 class="cabeceras_secciones">
-			Comentarios
-		</h3>
+<section id="sobre_nosotros">
+	<div class="cabecera_seccion">
+		<h3>Sobre Nosotros</h3>
 	</div>
 
-	<div class="comentariosContenido">
-		<div class="comentarios_caja">
-			<!--Bloque 1--------------------------------->
-			<div class="comentariosBloque">
-				<div class="comentariosBloque1_Nombre">
-					<strong> Candela Jiménez </strong>
-				</div>
-				<div class="comentariosBloque1_Valoración">
-					<strong> 4/5 </strong>
-				</div>
-				<div class="comentariosBloque1_Contenido">
-					<p>Hola que tal</p>
-				</div>
-			</div>
-
-			<!--Bloque 2--------------------------------->
-			<div class="comentariosBloque">
-				<div class="comentariosBloque1_Nombre">
-					<strong> Candelo Jimónoz </strong>
-				</div>
-				<div class="comentariosBloque1_Valoración">
-					<strong> 0/5 </strong>
-				</div>
-				<div class="comentariosBloque1_Contenido">
-					<p>Menuda puta mierda de juego</p>
-				</div>
-			</div>
-
-			<!--Bloque 3--------------------------------->
-			<div class="comentariosBloque">
-				<div class="comentariosBloque1_Nombre">
-					<strong> Candelo Jimónoz </strong>
-				</div>
-				<div class="comentariosBloque1_Valoración">
-					<strong> 3/5 </strong>
-				</div>
-				<div class="comentariosBloque1_Contenido">
-					<p>Meh</p>
-				</div>
-			</div>
-		</div>
-
+	<div class="sobre_nosotros_contenido">
+		<p> Somos la compañia Bad Brains, dedicada a la creación de videojuegos, nos componemos por un grupo de universitarios de primer curso de la URJC que estudia Diseño y Desarrollo de Videojuegos y hemos creado este videojuego con el fin de que cualquiera que lo quiera probar pueda disfrutar de la mejor experiencia de juego que hemos podido lograr en nuestro primer videojuego publicado. <br>
+		Nos enorgullecemos de contar con un equipo formado por desarrolladores, diseñadores y artistas talentosos y apasionados por los videojuegos.
+		Nos esforzamos por crear juegos innovadores, emocionantes y accesibles para todo tipo de jugadores. Creemos en el poder de los videojuegos para inspirar, entretener y desafiar a los jugadores, y nos esforzamos por crear experiencias de juego únicas y emocionantes. Nos enfocamos en crear juegos que sean visualmente impresionantes, fáciles de aprender y difíciles de dominar.	</p>
 	</div>
 
 </section>
 
-<section class="patrocinar">
-	<div class="cabeceraComentarios">
-		<h3 class="cabeceras_secciones">
-			Patrocinar
-		</h3>
-	</div>
-</section>
+<! --------------- Preguntas frecuentes ---------------->
 
-<section class="preguntas_frecuentes"> 
-	<div class="cabeceraComentarios"> 
-		<h3 class="cabeceras_secciones"> 
-			Preguntas Frecuentes 
-		</h3>
+
+<section id="preguntas_frecuentes"> 
+	<div class="cabecera_seccion"> 
+		<h3> Preguntas Frecuentes</h3>
 	</div>
-		<div class="preguntas_FrecuentesContenido">
-			<div class="preguntasBloque">
+		<div class="preguntas_frecuentes_contenido">
+			<div class="preguntas_bloque">
 				<details>
 		   			<summary class="pregunta"> ¿Cuál es la trama del videojuego? </summary> <!– Pregunta 1 –>
 		   				
@@ -213,19 +199,61 @@
 	</div>
 </section>
 
-<section class="sobre_nosotros">
-	<div class="cabeceraComentarios">
-		<h3 class="sobre_nosotros">
-			Sobre Nosotros
-		</h3>
-	</div>
-	<div class="sobre_nosotrosContenido">
-		<p> Somos la compañia Bad Brains, dedicada a la creación de videojuegos, nos componemos por un grupo de universitarios de primer curso de la URJC que estudia Diseño y Desarrollo de Videojuegos y hemos creado este videojuego con el fin de que cualquiera que lo quiera probar pueda disfrutar de la mejor experiencia de juego que hemos podido lograr en nuestro primer videojuego que hemos publicado. <br>
-		Nos enorgullecemos de contar con un equipo formado por desarrolladores, diseñadores y artistas talentosos y apasionados por los videojuegos.
-		Nos esforzamos por crear juegos innovadores, emocionantes y accesibles para todo tipo de jugadores. Creemos en el poder de los videojuegos para inspirar, entretener y desafiar a los jugadores, y nos esforzamos por crear experiencias de juego únicas y emocionantes. Nos enfocamos en crear juegos que sean visualmente impresionantes, fáciles de aprender y difíciles de dominar.	</p>
-	</div>
-</section>
+<! --------------- Comentarios ---------------->
 
+<section id="comentarios">
+	<div class="cabecera_seccion">
+		<h3>Comentarios</h3>
+	</div>
+
+	<div class="comentarios_contenido">
+		<div class="comentarios_caja">
+
+			<!--Bloque 1--------------------------------->
+
+			<div class="comentarios_bloque">
+				<div class="comentarios_bloque_Nombre">
+					<strong> Candela Jiménez </strong>
+				</div>
+				<div class="comentarios_bloque_Valoración">
+					<strong> 4/5 </strong>
+				</div>
+				<div class="comentarios_bloque_Contenido">
+					<p>Hola que tal</p>
+				</div>
+			</div>
+
+			<!--Bloque 2--------------------------------->
+			<div class="comentarios_bloque">
+				<div class="comentarios_bloque_Nombre">
+					<strong> Candelo Jimónoz </strong>
+				</div>
+				<div class="comentarios_bloque_Valoración">
+					<strong> 0/5 </strong>
+				</div>
+				<div class="comentarios_bloque_Contenido">
+					<p>Menuda puta mierda de juego</p>
+				</div>
+			</div>
+
+			<!--Bloque 3--------------------------------->
+			<div class="comentarios_bloque">
+				<div class="comentarios_bloque_Nombre">
+					<strong> Candelo Jimónoz </strong>
+				</div>
+				<div class="comentarios_bloque_Valoración">
+					<strong> 3/5 </strong>
+				</div>
+				<div class="comentarios_bloque_Contenido">
+					<p>Meh</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+<script src="Scripts/Pagina_principal.js"></script>
 </body>
 
 </html>
