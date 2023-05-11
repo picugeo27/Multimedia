@@ -5,9 +5,6 @@ const advertencia="Esta pagina utiliza cookies, si no está de acuerdo con ello 
 var patrocinadores = document.getElementById("patrocinadores");
 var recaudacion = document.getElementById("recaudaciones");
 
-document.cookie = "miCookie=valorDeMiCookie";
-console.log(document.cookie;
-
 var dinero = document.cookie;
 console.log(document.cookie);
 
