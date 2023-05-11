@@ -14,5 +14,8 @@ if (dinero == 0){
 	document.cookie = "dinero=1"
 	dinero = document.cookie;
 	}
+if (dinero>1){
+	patrocinadores.textContent = (patrocinadores_base + 1);
+}
 console.log(recaudacion.textContent);
 recaudacion.textContent = (reaudacion_base+parseInt(dinero));
