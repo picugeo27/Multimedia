@@ -15,4 +15,4 @@ if (dinero == 0){
 	}
 
 
-console.log(dinero)
+console.log(document.cookie);
