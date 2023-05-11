@@ -5,5 +5,10 @@ const advertencia="Esta pagina utiliza cookies, si no está de acuerdo con ello 
 var patrocinadores = document.getElementById("patrocinadores");
 var recaudacion = document.getElementById("recaudaciones");
 
-document.cookie = "miCookie=valorDeMiCookie";
-console.log(document.cookie.trim());
+var dinero = document.cookie;
+console.log(document.cookie);
+
+if (dinero == null || dinero == undefined){
+	alert(advertencia);
+	document.cookie = "dinero=0; expires=2023-06-01"
+}
