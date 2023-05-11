@@ -37,6 +37,6 @@ btn1.addEventListener('click', (e) =>{
 	pagado = 100000 + parseInt(cookie.split('=')[1]);
 	document.cookie = "dinero=" + pagado + ";";
 	console.log(document.cookie);
-	recaudacion.textContent = (reaudacion_base + parseInt(dinero.split('=')[1]));
+	recaudacion.textContent = (reaudacion_base + parseInt(document.cookie.split('=')[1]));
 
 })
