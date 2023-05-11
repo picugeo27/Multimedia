@@ -11,7 +11,7 @@ console.log(document.cookie);
 if (dinero == 0){
 
 	alert(advertencia);
-	document.cookie = "dinero=0"
+	document.cookie = "dinero=1"
 	}
 
 
