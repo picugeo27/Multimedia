@@ -12,7 +12,7 @@ if (dinero == 0){
 
 	alert(advertencia);
 	document.cookie = "dinero=1"
+	dinero = document.cookie;
 	}
 
-
-console.log(document.cookie);
+recaudacion.textContent=reaudacion_base+parseInt(dinero);
