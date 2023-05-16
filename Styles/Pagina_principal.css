@@ -5,28 +5,52 @@
 	font-family: lato;
 }
 
-h1{
-	font-size: 80px;
+@font-face{
+	font-family: "Heart Breaking Bad";
+	src: url('Fonts/Heart Breaking Bad.otf') format("opentype");
 }
 
-h2{
-	font-size: 30px;
+h1{
+	font-size: 80px;
+	font-style: normal;
+	font-family: "Heart Breaking Bad", arial, sans-serif;
+}
+
+h2 {
+	text-align: center;	
+	font-size: 55px;
+	font-family: "Heart Breaking Bad", arial, sans-serif;
 }
 
 h3{
-	font-size: 20px;
+	width: 100%;
+	text-align: center;	
+	font-size: 25px;
+	font-family: arial, sans-serif;
+	color: black;
+	background-color: white;
 
+}
+h4 {
+
+	font-size: 25px;
+	font-family: arial, sans-serif;
 }
 
 header{
-	background-color: lightgray;
+	position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			width: 100%;
+	background-color: pink;
 }
 
 
 nav{	
 	display: inline-block;
 	box-align: center;
-	background-color: pink;
+	background-color: lightgrey;
 	font-size: 20px; 
 }
 
@@ -35,12 +59,25 @@ video{
 	height: auto;
 }
 
+body{
+	background-image: url("https://picsum.photos/780/520");
+}
+
 /* ****************** Cabeceras ******************* */
+.espacio{
+	display: inline-block;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 55px;
+}
 
 .introduccion{
 	display: flex;
+	color: white;
 	align-content: center;
-	background-image: url("https://picsum.photos/780/520");
+	background-color: #304E2C;
 }
 
 .equipo{
@@ -54,8 +91,24 @@ video{
 	flex-wrap: wrap;
 	width:100%;
 }
+/******************* Imagenes ******************/
+
+.historiaCuerpo{
+	display: flex;
+  height: 500px;
+}
 
 /******************* Parrafos *****************/
+
+p{
+	font-style: normal;
+	font-family: Vegur, arial, 'PT Sans', Verdana, sans-serif;
+}
+
+#campana{
+	 border-radius: 8px;
+	 background-color: #8AA488;
+}
 
 .recaudacion_contenido{
 	display: flex;
@@ -105,8 +158,18 @@ video{
 /************* Bloques ***********/
 
 .campana_contenido{
-	display: inline-flex;
+
+	display: flex;
 	margin-left: 30px;
+	color: white;
+	border-radius: 8px;  
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:100%;
+	
+	background-color: #304E2C;
+
 }
 
 
@@ -153,7 +216,13 @@ details p {
 	margin: 15px;
 }
 
-/*************** Preguntas frecuentes *************/*/
+/*************** Preguntas frecuentes *************/
+
+#preguntas_frecuentes{
+	border-radius: 8px;
+	background-color: #304E2C;
+}
+
 .preguntas_frecuentes_contenido{
 	box-sizing: border-box;
 	margin-top: 20px;
@@ -168,10 +237,11 @@ details p {
 	flex-wrap: wrap;
 	width:100%;
 }
-#preguntas_frecuentes{
 
+#sobre_nosotros{
+	border-radius: 8px;
+	background-color: pink;
 }
-
 
 .sobre_nosotros_contenido{
 	display: inline-flex;
