@@ -18,7 +18,7 @@ if (dinero == 0){
 	dinero = document.cookie;
 	}
 
-if (parseInt(document.cookie.split('=')[1]) >= 1){
+if (parseInt(document.cookie.split('=')[1]) > 1){
 	patrocinadores.textContent = (patrocinadores_base + 1);
 }else{
 	patrocinadores.textContent = (patrocinadores_base);
